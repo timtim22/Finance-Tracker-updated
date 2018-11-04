@@ -15,7 +15,8 @@ gem 'jquery-rails'
 gem 'devise-bootstrap-views'
 gem 'coffee-script-source', '~> 1.4.0'
 gem 'devise-i18n'
-gem 'certified' 
+gem 'certified'
+gem 'stock_quote'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
