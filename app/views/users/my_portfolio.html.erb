@@ -10,12 +10,14 @@
          </div>
          <div class="col-md-2">
           <%= button_tag(type: :subimt, class: "btn btn-lg btn-success") do %>
-           <i class="far fa-search"></i> Look up a stock
+           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+ Look up a stock
           <% end %>
          </div>
         </div>
     <% end %>
 </div>
 <div id="results">
-    <%= render 'result' %>
+    <%= render 'users/result' %>
 </div>
+<%= render 'users/list' %>
