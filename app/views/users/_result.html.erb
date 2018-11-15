@@ -1,8 +1,8 @@
 <% if params[:action] == "search" %>
     <div class ="results-block">
         <%= bootstrap_flash %>
+    </div>
 <% end %>
-</div>
 <% if @stock %>
     <div class="well results-block">
         <strong>Symbol: </strong><%= @stock.ticker %>
